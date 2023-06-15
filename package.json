@@ -3,20 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/js-cookie": "^3.0.3",
     "@types/node": "20.3.1",
+    "@types/qs": "^6.9.7",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
+    "@types/react-redux": "^7.1.25",
+    "@types/woocommerce__woocommerce-rest-api": "^1.0.2",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^1.4.0",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
+    "js-cookie": "^3.0.5",
     "next": "13.4.5",
+    "qs": "^6.11.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-redux": "^8.1.0",
     "typescript": "5.1.3"
   }
 }
